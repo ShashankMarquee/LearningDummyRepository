@@ -182,6 +182,8 @@ public class BaseClass {
 		propConnection.load(inputstreemMISC);
 		propConnection.load(inputstreemPaystub);
 		ExcelData = new base.ExcelData(); 
+		
+		System.out.println("Test changes");
 	}
 
 	public void ConfigurAndroid() throws IOException {
